@@ -1,0 +1,26 @@
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: lightblue;
+  .title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: lightblue;
+  .copyright {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
